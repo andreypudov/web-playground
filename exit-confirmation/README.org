@@ -1,0 +1,6 @@
+#+title: Exit Confirmation
+#+author: Andrey Pudov
+#+date: <2024-01-09 Tue>
+
+[[https://andreypudov.com/exit-confirmation/][Demo website]]
+

@@ -1,0 +1,6 @@
+#+title: Video Preview
+#+author: Andrey Pudov
+#+date: <2023-10-06 Fri>
+
+[[https://andreypudov.com/video-preview/][Demo website]]
+

@@ -1,0 +1,6 @@
+* [[https://andreypudov.com/playground][Web playground]]
+
+- [[./exit-confirmation/][Exit Confirmation]]
+- [[./sharelink-preview/][Sharelink Preview]]
+- [[./video-preview/][Video Preview]]
+- [[./youtube/][YouTube]]

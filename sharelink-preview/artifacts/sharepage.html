@@ -1,0 +1,53 @@
+<html>
+  <head>
+    <title>Sharelink - Page</title>
+
+    <meta property="og:title" content="Rugby World Cup 2023 Winner" />
+    <meta property="og:description" content="" />
+    <meta property="og:image" content="https://scontent-arn2-1.cdninstagram.com/v/t51.29350-15/369540571_282211424530314_6647149346769603659_n.webp?stp=c216.0.648.648a_dst-jpg_s640x640&_nc_cat=107&ccb=1-7&_nc_sid=8ae9d6&_nc_ohc=6kDcaD2hbbYAX9jRa-8&_nc_ht=scontent-arn2-1.cdninstagram.com&oh=00_AfDj5-gTvop4nObeuR-4fPprmIYaupe0aNQPSOGSgHX0Cw&oe=64EA594E" />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Rugby World Cup 2023 Winner" />
+    <meta name="twitter:description" content="" />
+    <meta name="twitter:image" content="https://scontent-arn2-1.cdninstagram.com/v/t51.29350-15/369540571_282211424530314_6647149346769603659_n.webp?stp=c216.0.648.648a_dst-jpg_s640x640&_nc_cat=107&ccb=1-7&_nc_sid=8ae9d6&_nc_ohc=6kDcaD2hbbYAX9jRa-8&_nc_ht=scontent-arn2-1.cdninstagram.com&oh=00_AfDj5-gTvop4nObeuR-4fPprmIYaupe0aNQPSOGSgHX0Cw&oe=64EA594E" />
+
+    <style>
+      body {
+        background-color: #A96FFD;
+
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        overflow: hidden;
+      }
+
+      body > button {
+        background-color: #7564E3;
+        color: #6FCDFD;
+        box-shadow: 10px 10px #444;
+
+        border: none;
+        font-size: 64pt;
+        padding: 24px;
+      }
+    </style>
+    <script>
+      function share() {
+        const data = {
+          url: '/sharepage.html'
+        };
+
+        if (navigator.share) {
+          console.log('Web Share API is supported');
+          navigator.share(data)
+            .then(() => console.log('Successful share'))
+            .catch((error) => console.log('Error sharing', error));
+        }
+      }
+    </script>
+  </head>
+  <body>
+    <button onclick='share()'>Share</button>
+  </body>
+</html>
