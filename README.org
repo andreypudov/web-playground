@@ -1,6 +1,7 @@
 * [[https://andreypudov.com/playground][Web playground]]
 
 - [[https://andreypudov.com/web-playground/exit-confirmation/][Exit Confirmation]]
+- [[https://andreypudov.com/web-playground/image-loading/][Image Loading]]
 - [[https://andreypudov.com/web-playground/sharelink-preview/][Sharelink Preview]]
 - [[https://andreypudov.com/web-playground/video-preview/][Video Preview]]
 - [[https://andreypudov.com/web-playground/youtube/][YouTube]]

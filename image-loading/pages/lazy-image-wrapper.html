@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Home - Image Loading</title>
+
+    <link rel="icon" type="image/png" href="../images/loading.png" />
+    <link rel = 'stylesheet' href = '../styles.css' />
+    <script src="../script.js"></script>
+
+    <script>
+      window.onload = function () {
+        duplicateBodyContent(DUPLICATION_COUNT);
+      };
+    </script>
+  </head>
+  <body class = 'page primary'>
+    <div class="lazy-image-wrapper">
+      <img class="low-res" src="../photographs/grey.webp">
+      <img class="high-res" src="../photographs/red.bmp" loading="lazy">
+    </div>
+
+    <div class="lazy-image-wrapper">
+      <img class="low-res" src="../photographs/grey.webp">
+      <img class="high-res" src="../photographs/green.bmp" loading="lazy">
+    </div>
+
+    <div class="lazy-image-wrapper">
+      <img class="low-res" src="../photographs/grey.webp">
+      <img class="high-res" src="../photographs/blue.bmp" loading="lazy">
+    </div>
+  </body>
+</html>
