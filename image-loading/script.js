@@ -5,9 +5,12 @@ function duplicateBodyContent(numberOfCopies) {
   const originalHTML = body.innerHTML;
 
   for (let index = 0; index < numberOfCopies; index++) {
-    body.innerHTML += originalHTML;
+    body.innerHTML += originalHTML
+      .replaceAll(".webp", ".webp?v=" + index)
+      .replaceAll(".bmp", ".bmp?v=" + index);
   }
 }
 
-duplicateBodyContent(DUPLICATION_COUNT);
-alert("Content duplicated " + DUPLICATION_COUNT + " times.");
+window.onload = function () {
+  duplicateBodyContent(DUPLICATION_COUNT);
+};
